@@ -1,0 +1,25 @@
+{
+  "name": "sequelizedBurger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellie82/sequelizedBurger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stellie82/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/stellie82/sequelizedBurger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.2"
+  }
+}

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+h1, h2, p, li, .create-form {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.5px 0.5px 1px ghostwhite;
+}
+
+.container {
+    width: auto;
+    height: 500px;
+    padding: 25px 0 100px 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/burgers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px ghostwhite;
+}
+
+.section {
+    padding: 10px 125px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#submit, .form-group {
+    display: inline-block;
+}
+
+.create-form {
+    padding: 0 0 40px 0;
+}
