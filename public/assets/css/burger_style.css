@@ -7,9 +7,15 @@ header {
     padding: 10px;
 }
 
-h1, h2, p, li, .create-form {
+h1, p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px ghostwhite;
 }
 
 ul {
@@ -19,7 +25,6 @@ ul {
 
 li {
     list-style: none;
-    text-align: left;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0.5px 0.5px 1px ghostwhite;
@@ -38,20 +43,25 @@ li {
     z-index: -1;
 }
 
-h2 {
-    text-shadow: 1px 1px 2px ghostwhite;
-}
-
 .section {
     padding: 10px 125px;
     display: inline-block;
     vertical-align: top;
 }
 
-#submit, .form-group {
+.todo-items {
+    text-align: left;
+}
+
+.devoured {
+    margin: 0 10px;
+}
+
+li, .devoured {
     display: inline-block;
 }
 
-.create-form {
-    padding: 0 0 40px 0;
+footer {
+    padding: 0 0 30px 0;
+    text-align: center;
 }
