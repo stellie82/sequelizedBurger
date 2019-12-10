@@ -4,9 +4,6 @@ function getBurgers() {
     $.get("/api/burgers", function (data) {
         burgersList = data;
         console.log(burgersList);
-        console.log(burgersList[0].devoured);
-        console.log(burgersList[1].devoured);
-        console.log(burgersList[2].devoured);
         for (i = 0; i < burgersList.length; i++) {
             if (burgersList[i].devoured === "0") {
                 $(".todo-list").append("<div class=todo-items>"
@@ -26,7 +23,6 @@ function getBurgers() {
 function devouredBurger() {
     $(".devoured").on("click", function (event) {
         let id = $(this).attr("id");
-        console.log(event);
         // var burgerDevoured = $(this).attr("devoured");
 
         let devouredState = {
