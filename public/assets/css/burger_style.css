@@ -49,7 +49,7 @@ li {
     vertical-align: top;
 }
 
-.todo-items {
+.todo-items, .done-items {
     text-align: left;
 }
 
