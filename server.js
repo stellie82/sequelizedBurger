@@ -5,6 +5,7 @@ var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 8080;
 
+// Set up Heroku prod database access
 var JAWSDB_URL = process.env.JAWSDB_URL;
 
 // Require models for syncing

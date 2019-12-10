@@ -1,5 +1,7 @@
+// Set up array to hold list of burgers user inputs
 var burgersList = [];
 
+// Create function to get the list of burgers
 function getBurgers() {
     $.get("/api/burgers", function (data) {
         burgersList = data;
@@ -20,6 +22,7 @@ function getBurgers() {
     });
 };
 
+// Create a function to hold the stats of the clicked burger
 function devouredBurger() {
     $(".devoured").on("click", function (event) {
         let id = $(this).attr("id");
@@ -35,6 +38,7 @@ function devouredBurger() {
     });
 };
 
+// Create a function to update the status of the burger in the DB when the "devour" button is clicked
 function updateBurger(burgerState) {
     $.ajax({
         method: "PUT",
@@ -45,6 +49,7 @@ function updateBurger(burgerState) {
     });
 };
 
+// Create a function to post a new burger to the DB
 $("#submit").on("click", function (event) {
     event.preventDefault();
 
